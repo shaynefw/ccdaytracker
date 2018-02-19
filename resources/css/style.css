@@ -37,10 +37,8 @@ header h1 {
 /* Table section */
 
 table {
-  padding-top: 110px;
   width: 100%;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding: 110px 100px 115px 100px;
 }
 th, td{
   border: 1px solid white;
@@ -50,4 +48,17 @@ th, td{
 tr:hover {
   background-color: white;
   color: #21465e;
+}
+
+/* Footer section */
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid white;
+}
+footer img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 50px;
 }
